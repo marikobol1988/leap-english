@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Leap English",
+    "slug": "leap-english",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ge.leap.english"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F2C14E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "ge.leap.english"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sqlite",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A0E13",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160
+        }
+      ],
+      "expo-image"
+    ],
+    "scheme": "leap",
+    "backgroundColor": "#0A0E13",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
